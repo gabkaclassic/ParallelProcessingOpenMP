@@ -49,11 +49,11 @@ cmake_ninja_workdir = /home/errodion/CLionProjects/ParallelProcessing/cmake-buil
 
 build cmake_object_order_depends_target_openmp_test_clion: phony || CMakeFiles/openmp_test_clion.dir
 
-build CMakeFiles/openmp_test_clion.dir/lab_3/main.cpp.o: CXX_COMPILER__openmp_test_clion_Debug /home/errodion/CLionProjects/ParallelProcessing/lab_3/main.cpp || cmake_object_order_depends_target_openmp_test_clion
-  DEP_FILE = CMakeFiles/openmp_test_clion.dir/lab_3/main.cpp.o.d
+build CMakeFiles/openmp_test_clion.dir/lab_3_4/main.cpp.o: CXX_COMPILER__openmp_test_clion_Debug /home/errodion/CLionProjects/ParallelProcessing/lab_3_4/main.cpp || cmake_object_order_depends_target_openmp_test_clion
+  DEP_FILE = CMakeFiles/openmp_test_clion.dir/lab_3_4/main.cpp.o.d
   FLAGS = -std=c++11 -fopenmp -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/openmp_test_clion.dir
-  OBJECT_FILE_DIR = CMakeFiles/openmp_test_clion.dir/lab_3
+  OBJECT_FILE_DIR = CMakeFiles/openmp_test_clion.dir/lab_3_4
 
 
 # =============================================================================
@@ -63,7 +63,7 @@ build CMakeFiles/openmp_test_clion.dir/lab_3/main.cpp.o: CXX_COMPILER__openmp_te
 #############################################
 # Link the executable openmp_test_clion
 
-build openmp_test_clion: CXX_EXECUTABLE_LINKER__openmp_test_clion_Debug CMakeFiles/openmp_test_clion.dir/lab_3/main.cpp.o
+build openmp_test_clion: CXX_EXECUTABLE_LINKER__openmp_test_clion_Debug CMakeFiles/openmp_test_clion.dir/lab_3_4/main.cpp.o
   FLAGS = -std=c++11 -fopenmp -g
   OBJECT_DIR = CMakeFiles/openmp_test_clion.dir
   POST_BUILD = :

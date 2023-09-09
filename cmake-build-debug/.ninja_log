@@ -1,17 +1,9 @@
 # ninja log v5
 1	306	1694268996619680109	CMakeFiles/openmp_test_clion.dir/lab_1/main.cpp.o	ce794d1dfa7d6e56
-355	483	1694270767731868598	openmp_test_clion	ac326242252fbe56
-0	23	1694270777579771144	build.ninja	491818d3afe09e57
-0	355	1694270767603869922	CMakeFiles/openmp_test_clion.dir/lab_3/main.cpp.o	3ed8e07107f8281d
+406	508	1694270843247330342	openmp_test_clion	ac326242252fbe56
+0	23	1694271710357464849	build.ninja	491818d3afe09e57
+1	406	1694270843147330748	CMakeFiles/openmp_test_clion.dir/lab_3/main.cpp.o	3ed8e07107f8281d
 1	298	1694269150353473679	CMakeFiles/openmp_test_clion.dir/lab_2/main.cpp.o	e0fdb4967a93960b
 1	299	1694266890119685417	CMakeFiles/openmp_test_clion.dir/main.cpp.o	f33d6c72e0ccf0ed
-0	401	1694270800431577384	CMakeFiles/openmp_test_clion.dir/lab_3/main.cpp.o	3ed8e07107f8281d
-401	517	1694270800547576514	openmp_test_clion	ac326242252fbe56
-1	338	1694270812735491255	CMakeFiles/openmp_test_clion.dir/lab_3/main.cpp.o	3ed8e07107f8281d
-338	464	1694270812859490447	openmp_test_clion	ac326242252fbe56
-1	362	1694270822467431897	CMakeFiles/openmp_test_clion.dir/lab_3/main.cpp.o	3ed8e07107f8281d
-363	477	1694270822583431235	openmp_test_clion	ac326242252fbe56
-0	354	1694270830091390690	CMakeFiles/openmp_test_clion.dir/lab_3/main.cpp.o	3ed8e07107f8281d
-354	456	1694270830195390163	openmp_test_clion	ac326242252fbe56
-1	406	1694270843147330748	CMakeFiles/openmp_test_clion.dir/lab_3/main.cpp.o	3ed8e07107f8281d
-406	508	1694270843247330342	openmp_test_clion	ac326242252fbe56
+0	345	1694271753994700501	CMakeFiles/openmp_test_clion.dir/lab_3_4/main.cpp.o	d1f843861b00bf79
+346	475	1694271754122704164	openmp_test_clion	71e1b5d18bdc238c
