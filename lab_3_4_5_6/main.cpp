@@ -108,6 +108,30 @@ int calculateCParallel_Locks(int* A, int* B, int* C)
     return sum;
 }
 
+int calculateCParallel_Nowait(int* A, int* B, int* C)
+{
+    int sum = 0;
+
+    #pragma omp parallel
+    {
+        int localSumPrivate = 0;
+
+    #pragma omp for nowait
+        for (int i = 0; i < N; i++)
+        {
+            C[i] = A[i] + B[i];
+            localSumPrivate += C[i];
+        }
+
+    #pragma omp critical
+        {
+    #pragma omp atomic
+            sum += localSumPrivate;
+        }
+    }
+
+    return sum;
+}
 
 int calculateCParallel_Sections_4(int* A, int* B, int* C)
 {
@@ -224,6 +248,8 @@ int main()
     std::cout << "Locks:" << std::endl;
     profileFunction("calculateCParallel_Locks", calculateCParallel_Locks, A, B, C);
 
+    std::cout << "Nowait barriers:" << std::endl;
+    profileFunction("calculateCParallel_Nowait", calculateCParallel_Nowait, A, B, C);
 
     return 0;
 }
